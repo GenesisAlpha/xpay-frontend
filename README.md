@@ -1,1 +1,165 @@
-IyBYUGF5IENvbW1lcmNlCgpGcm9udGVuZCBuYXZlZ8OhdmVsIGRvIGNvbWVyY2lhbnRlLCBjaGVja291dCBkbyBjb21wcmFkb3IgZSBiYWNrb2ZmaWNlIG9wZXJhY2lvbmFsLiBBIHByaW1laXJhIHZlcnPDo28gY29ycmUgZW0gZGVtb25zdHJhw6fDo28gbG9jYWwgY29tIGR1YXMgbG9qYXMsIHF1YXRybyBtb2VkYXMgZSBkYWRvcyBmaWN0w61jaW9zLiBPcyBwZWRpZG9zLCBsaW5rcyBlIG5vdGFzIHF1ZSBjcmlhciBzw6NvIGd1YXJkYWRvcyBubyBuYXZlZ2Fkb3IgZGVzdGEgb3JpZ2VtLgoKIyMgRXhlY3V0YXIKClJlcXVlciBOb2RlLmpzIDIyIG91IHN1cGVyaW9yLiBPIGZyb250ZW5kIHVzYSBIVE1MLCBDU1MgZSBKYXZhU2NyaXB0IG5hdGl2b3MuCgp+fn5zaApucG0gc3RhcnQKbnBtIHJ1biBjaGVjawp+fn4KCkFicmlyIFtodHRwOi8vMTI3LjAuMC4xOjQxNzNdKGh0dHA6Ly8xMjcuMC4wLjE6NDE3MykuIE8gZGlyZWN0w7NyaW8gcHVibGljIGNvbnTDqW0gb3MgZmljaGVpcm9zIHBhcmEgYWxvamFtZW50byBlc3TDoXRpY28uIEFzIHDDoWdpbmFzIHVzYW0gcm90YXMgcG9yIGZyYWdtZW50byBlIG9zIFVSTHMgZGUgdGVzdGUgcGVydGVuY2VtIMOgIG9yaWdlbSBlIGFvIG5hdmVnYWRvciBxdWUgZ3VhcmRvdSBvcyBkYWRvcy4gVXNlIGRhZG9zIGZpY3TDrWNpb3MuIEFzIG9wZXJhw6fDtWVzIGRhIGludGVyZmFjZSBzaW11bGFtIHBhZ2FtZW50bywgcmVlbWJvbHNvLCBlbnRyZWdhLCBzYXF1ZSBlIGFjdGl2YcOnw6NvLgoKIyMgSm9ybmFkYXMgZGlzcG9uw612ZWlzCgp8IMOBcmVhIHwgTyBxdWUgcG9kZSBleHBlcmltZW50YXIgfCBMaWdhw6fDo28gcmVhbCB8CnwtLS18LS0tfC0tLXwKfCBWaXPDo28gZ2VyYWwgfCBFc2NvbGhlciBsb2phLCBtb2VkYSBlIHBlcsOtb2RvLiBDb25zdWx0YXIgdm9sdW1lLCBzYWxkbyBlIMO6bHRpbW9zIHBlZGlkb3MuIHwgRGFzaGJvYXJkIGUgY2FydGVpcmEgZG8gQ29yZSBjb20gaWRlbnRpZGFkZSBlIG1vZWRhIHZlcmlmaWNhZGFzLiB8CnwgQ29tw6lyY2lvIHwgQ3JpYXIgcHJvZHV0bywgcHVibGljYXIgb2ZlcnRhIGNvbSBwcmXDp28gZSBtb2VkYSwgY3JpYXIsIHBhdXNhciBlIHJlYWN0aXZhciB1bSBsaW5rLiB8IEFQSSBkZSBjYXTDoWxvZ28sIG9mZXJ0YSBjb21lcmNpYWwgZSBjaWNsbyBkbyBsaW5rIGEgaW1wbGVtZW50YXIgb3UgY29uZmlybWFyLiB8CnwgQ2hlY2tvdXQgfCBSZXV0aWxpemFyIG8gbWVzbW8gbGluaywgc2ltdWxhciBjb25maXJtYcOnw6NvLCBwZW5kw6puY2lhIGUgcmVjdXNhLiBWaXN1YWxpemFyIGV4ZW1wbG8gZG8gYm90w6NvLiB8IExpbmsgbm8gc2Vydmlkb3Ig4oaSIHNlc3PDo28gZG8gQ29yZSDihpIgY2hlY2tvdXQgYWxvamFkbywgZW1iZWQgb3UgQVBJIGRvIGNvbWVyY2lhbnRlLiB8CnwgUGVkaWRvcyBlIGNsaWVudGVzIHwgQ29uc3VsdGFyIGVzdGFkbywgc2ltdWxhciBjb25maXJtYcOnw6NvLCBlbnRyZWdhIGUgcmVlbWJvbHNvLiBDb25zdWx0YXIgY29tcHJhcyBlIGdyYXZhciBub3Rhcy4gfCBEb23DrW5pbyBkZSBwZWRpZG9zLCBpZGVudGlkYWRlIGRvIGNsaWVudGUsIGNvbmZpcm1hw6fDo28gYXNzw61uY3JvbmEgZSBjb25lY3RvciBDUk0uIHwKfCBDYW1wYW5oYXMgZSBhZmlsaWFkb3MgfCBDcmlhciBjYW1wYW5oYSwgY29waWFyIGxpbmsgYXRyaWJ1w61kbywgdmVyaWZpY2FyIGNvbnZlcnPDtWVzIGUgcmVnaXN0YXIgcGFyY2Vpcm8uIHwgRXZlbnRvcyBhdHJpYnXDrWRvcywgY29taXNzw7VlcyBlIHNpbmNyb25pemHDp8OjbyBjb20gY2FuYWlzIGRlIG1hcmtldGluZy4gfAp8IEFzc2luYXR1cmFzIHwgVmVyIHByaW1laXJhcyBjb21wcmFzIGRlIG9mZXJ0YXMgbWVuc2Fpcy4gfCBDaWNsbyBkZSBjb2JyYW7Dp2EsIGNhbmNlbGFtZW50bywgcmVub3Zhw6fDo28gZSBlc3RhZG8gcGVyc2lzdGlkbyBwb3IgcHJvdmVkb3IuIHwKfCBGaW5hbmNlaXJvIHwgQ29uc3VsdGFyIHBhZ2FtZW50b3MsIGNhcnRlaXJhLCBkaXNwdXRhcyBlIHNhcXVlcyBwb3IgbW9lZGEgZSBsb2phIGUgZXhwb3J0YXIgdGFiZWxhcy4gfCBDYXJ0ZWlyYSBlIGxlZGdlciBkbyBDb3JlLCByZWdyYXMgZGUgcmVzZXJ2YXMsIEZYLCBkaXNwdXRhcywgc2FxdWVzIGUgcmVjb25jaWxpYcOnw6NvLiB8CnwgT25ib2FyZGluZyBlIGJhY2tvZmZpY2UgfCBSZXZlciBhY3RpdmHDp8OjbywgY29uY2x1aXIgb3UgcmVqZWl0YXIgc2FxdWVzLCBlZGl0YXIgbyBlc3RhZG8gZGUgcmVncmFzIGUgdGlja2V0cy4gfCBJZGVudGlkYWRlcyBkaXN0aW50YXMgcGFyYSBjb21lcmNpYW50ZSBlIGVxdWlwYSBpbnRlcm5hLCBLWUMsIHJvdXRpbmcgZSBDUk0gb3BlcmFjaW9uYWwuIHwKfCBJbnRlZ3Jhw6fDtWVzIHwgQ29uc3VsdGFyIGFzIGRlcGVuZMOqbmNpYXMgZSBvIHF1ZSBmYWx0YSBwYXJhIGFzIGxpZ2FyLiB8IENvbmZpZ3VyYcOnw6NvIHBvciBhbWJpZW50ZSBlIHByb3ZlZG9yLCBvYnNlcnZhYmlsaWRhZGUgZSB2YWxpZGHDp8OjbyBkZSBjYWRhIGZsdXhvLiB8CgojIyBNYXBhIGRhcyBsaWdhw6fDtWVzIGRvIGJhY2tlbmQKCkEgcmVmZXLDqm5jaWEgw6kgbyBjb21taXQgW2RhZDNlNTUgZGUgR2VuZXNpc0FscGhhL3hwYXktYmFja2VuZF0oaHR0cHM6Ly9naXRodWIuY29tL0dlbmVzaXNBbHBoYS94cGF5LWJhY2tlbmQvY29tbWl0L2RhZDNlNTVmM2VkYTZiNDJkNjQ3MTIwODFhNTYxMjU3MmZjZTI3MTIpLiBPcyBkaWFncmFtYXMgY29icmVtIGVudHJhZGFzLCBjaGFtYWRhcyBleHRlcm5hcywgZXZlbnRvcyBkZSByZXRvcm5vLCBwZXJzaXN0w6puY2lhLCB0YXJlZmFzIGFnZW5kYWRhcyBlIGV4dGVuc8O1ZXMgcHJldmlzdGFzLiBPIFtpbnZlbnTDoXJpbyBIVFRQXShkb2NzL2JhY2tlbmQtYXBpLm1kKSBkZXRhbGhhIGFzICoqMzIzIG9wZXJhw6fDtWVzIGRlY2xhcmFkYXMqKiBlIGFwb250YSBwYXJhIGNhZGEgY29udHJvbGFkb3IuIE8gW2ludmVudMOhcmlvIGRlIGRlcGVuZMOqbmNpYXNdKGRvY3MvYmFja2VuZC1jb25uZWN0aW9ucy5tZCkgZMOhIHJhc3RyZWFiaWxpZGFkZSBhIGhvc3RzIGxpdGVyYWlzLCB2YXJpw6F2ZWlzIGUgUlBDcyBlbmNvbnRyYWRvcyBlbSAqKjIwMCBmaWNoZWlyb3MgVHlwZVNjcmlwdCBkZSBwcm9kdcOnw6NvKiouIEV4cG9zacOnw6NvIGUgZGlzcG9uaWJpbGlkYWRlIHJlYWwgZGVwZW5kZW0gZG8gYW1iaWVudGUuCgojIyMgRW50cmFkYXMsIGlkZW50aWRhZGVzIGUgcGFww6lpcwoKfn5+bWVybWFpZApmbG93Y2hhcnQgVEQKICBNZXJjaGFudFsiQ29tZXJjaWFudGUgbm8gcG9ydGFsIl0gLS4gIkJGRiBhIGludGVncmFyIMK3IEpXVCIgLi0+IElkZW50aXR5WyJBdXRoLCBvbmJvYXJkaW5nIGUgc2VsbGVyIl0KICBTdGFmZlsiRXF1aXBhIGludGVybmEiXSAtLiAiQkZGIGEgaW50ZWdyYXIgwrcgQ1JNIEpXVCIgLi0+IENSTVsiQ1JNIGUgYmFja29mZmljZSJdCiAgQnV5ZXJbIkNvbXByYWRvciJdIC0uICJSZWZlcsOqbmNpYSBkZSBzZXNzw6NvIiAuLT4gQ2hlY2tvdXRbIkNoZWNrb3V0IGUgZW1iZWQiXQogIFNpdGVbIlNlcnZpZG9yIGRvIGNvbWVyY2lhbnRlIl0gLS0+fCJBUEkga2V5IGUgc2Vzc8OjbyJ8IENoZWNrb3V0CiAgU2l0ZSAtLT58IkFQSSBrZXkgZSBpZGVtcG90w6puY2lhInwgUGF5WyJQYWdhbWVudG9zIl0KICBXb3JrZXJbIkNoZWNrb3V0IGUgc2VydmnDp29zIEtvb3BmeSJdIC0tPnwiQ3JlZGVuY2lhbCBpbnRlcm5hIG91IGNvbnRleHRvIHZlcmlmaWNhZG8ifCBCcmlkZ2VbIkludGVncmHDp8OjbyBLb29wZnkgZSByb3RhcyBpbnRlcm5hcyJdCiAgSWRlbnRpdHkgLS0+IEFjY291bnRbIk9yZ2FuaXphw6fDo28sIHNlbGxlciBlIGxvamEiXQogIENSTSAtLT4gQWNjb3VudAogIEJyaWRnZSAtLT4gQWNjb3VudAogIEFjY291bnQgLS0+IFBvcnRhbFsiRGFzaGJvYXJkLCB0cmFuc2HDp8O1ZXMgZSBzZXR0aW5ncyJdCiAgQWNjb3VudCAtLT4gV2FsbGV0WyJXYWxsZXQsIHRyYW5zZmVyw6puY2lhcyBlIGRpc3B1dGFzIl0KICBDaGVja291dCAtLT4gUGF5Cn5+fgoKIyMjIENoZWNrb3V0LCByb3V0aW5nIGUgcHJvdmVkb3JlcwoKfn5+bWVybWFpZApmbG93Y2hhcnQgVEQKICBPZmZlclsiUHJvZHV0bywgcHJlw6dvIGUgb2ZlcnRhIHZlcnNpb25hZGEiXSAtLi0+IExpbmtzWyJMaW5rIGZpeG8gZSBib3TDo28gYSBpbXBsZW1lbnRhciJdCiAgTGlua3MgLS4gIk5vdmEgc2Vzc8OjbyBwb3IgdGVudGF0aXZhIiAuLT4gU2Vzc2lvblsiU2Vzc8OjbyBkZSBjaGVja291dCJdCiAgRXh0ZXJuYWxbIkxvamEgb3Ugc2VydmnDp28gZGUgY2hlY2tvdXQiXSAtLT4gU2Vzc2lvbgogIFNlc3Npb24gLS0+IFJvdXRlclsiU2VsZWPDp8OjbyBwb3IgY29udGEsIHBhw61zLCBtb2VkYSBlIG3DqXRvZG8iXQogIFJvdXRlciAtLT4gQ29ubmVjdGVkWyJDb250YXMgcHLDs3ByaWFzIGUgY29uZWN0YWRhcyJdCiAgUm91dGVyIC0tPiBQcm92aWRlclsiQWRhcHRlcnMgZSBwcm92ZWRvcmVzIGNvbmZpZ3VyYWRvcyJdCiAgQ29ubmVjdGVkIC0tPiBQcm92aWRlcgogIFByb3ZpZGVyIC0tPiBBWyJTdHJpcGUsIFdob3AsIFBheVBhbCBlIENsaXAiXQogIFByb3ZpZGVyIC0tPiBCWyJTZW50aW5lbCwgQ29pbmZsb3csIEtvbnRpbm8sIFJveFBheSBlIFNsYXNoIl0KICBQcm92aWRlciAtLT4gQ1siQXBwcm92ZWJseSDCtyBhZGFwdGVyIG9ic2VydmFkbyJdCiAgUHJvdmlkZXIgLS4tPiBEWyJWaXZhIMK3IHJlZmVyw6puY2lhIGhvc3RlZCBubyBjw7NkaWdvIl0KICBQcm92aWRlciAtLT4gU2FuZGJveFsiU2ltdWxhZG9yIGRlIHBhZ2FtZW50b3MiXQogIEEgLS0+IEV2ZW50WyJSZXNwb3N0YSBvdSBjYWxsYmFjayBkbyBwcm92ZWRvciJdCiAgQiAtLT4gRXZlbnQKICBFdmVudCAtLT4gU3RhdHVzWyJFc3RhZG8gZGEgdHJhbnNhw6fDo28gZSByZWNvbmNpbGlhw6fDo28iXQogIFN0YXR1cyAtLiAiRXZlbnRvIGNvbWVyY2lhbCBhIGltcGxlbWVudGFyIiAuLT4gT3JkZXJbIlBlZGlkbywgY2xpZW50ZSBlIGVudHJlZ2EiXQp+fn4KCk8gYWRhcHRlciBleGlzdGVudGUsIGEgcmVmZXLDqm5jaWEgZGUgY29uZmlndXJhw6fDo28gZSBhIGNhcGFjaWRhZGUgaG9tb2xvZ2FkYSBzw6NvIGVzdGFkb3MgZGlzdGludG9zLiBBcyByb3RhcyBkZSB3ZWJob29rIG9ic2VydmFkYXMgaW5jbHVlbSBOZXhmbG93LCBTZW50aW5lbCwgQ29pbmZsb3csIEtvbnRpbm8sIFJveFBheSwgU2xhc2gsIFdob3AsIFN0cmlwZSBlIFBheVBhbCwgYWzDqW0gZG8gY29udHJvbGFkb3IgQ2xpcC4gRG9tw61uaW9zIGUgbcOpdG9kb3MgdmFyaWFtIGNvbSBhIGNvbnRhIGUgYSByZWdpw6NvLgoKIyMjIEV2ZW50b3MsIGxlZGdlciBlIHRhcmVmYXMgcmVjb3JyZW50ZXMKCn5+fm1lcm1haWQKZmxvd2NoYXJ0IFRECiAgUHJvdmlkZXJbIlByb3ZlZG9yIGUgcmVjb25jaWxpYcOnw6NvIl0gLS0+IEhvb2tbIlJlY2Vww6fDo28gZGUgd2ViaG9va3MiXQogIEhvb2sgLS0+IE1hdGNoWyJBdXRlbnRpY2lkYWRlLCBjb3JyZWxhw6fDo28gZSBlc3RhZG8iXQogIE1hdGNoIC0tPiBUcmFuc2FjdGlvbnNbIlRyYW5zYcOnw7VlcyBlIGhpc3TDs3JpY28gZGUgZXZlbnRvcyJdCiAgVHJhbnNhY3Rpb25zIC0tPiBTdG9yZVsiU3VwYWJhc2UgUG9zdGdyZXMiXQogIFRyYW5zYWN0aW9ucyAtLT4gTGVkZ2VyWyJDYXJ0ZWlyYSwgbGVkZ2VyIGUgcmVzZXJ2YXMiXQogIExlZGdlciAtLT4gU3RvcmUKICBQYXlvdXRbIk9ycXVlc3RyYcOnw6NvIGRlIHNhcXVlcyBlIGFudGVjaXBhw6fDo28iXSAtLT4gTGVkZ2VyCiAgU2V0dGxlbWVudFsiQ3JvbiBkZSBzZXR0bGVtZW50IGUgbGliZXJ0YcOnw6NvIGRlIHJlc2VydmFzIl0gLS0+IFN0b3JlCiAgQ2xpcFsiUmVjb25jaWxpYcOnw6NvIGRlIENsaXAiXSAtLT4gVHJhbnNhY3Rpb25zCiAgUmVjb25jaWxlWyJSZWNvbmNpbGlhZG9yIGRlIHNhcXVlcyJdIC0tPiBQYXlvdXQKICBDb21taXNzaW9uc1siQWZpbGlhZG9zIGUgY3JvbiBkZSBjb21pc3PDtWVzIl0gLS0+IFN0b3JlCiAgQmlsbGluZ1siRmFjdHVyYcOnw6NvIGludGVybmEgZGUgc2VsbGVycyJdIC0tPiBTdG9yZQogIEJpbGxpbmcgLS0+fCJJbnRlZ3Jhw6fDo28ifCBXaG9wWyJXaG9wIl0KICBNYXRjaCAtLT58IkV2ZW50b3MgZSBwb3N0YmFja3MifCBNZXJjaGFudFsiU2lzdGVtYXMgZG8gY29tZXJjaWFudGUiXQogIEhvb2sgLS4gIkNvbnRyYXRvIGRlIG5lZ8OzY2lvIGEgaW1wbGVtZW50YXIiIC4tPiBDUk1bIk9yYmlhQ1JNIGUgbWFya2V0aW5nIl0Kfn5+CgpPIHNjaGVtYSBQcmlzbWEgZGVzY3JldmUgcGFydGUgZG9zIG1vZGVsb3MuIE8gcnVudGltZSB1c2EgdGFtYsOpbSBjbGllbnRlcyBTdXBhYmFzZSwgbWlncmHDp8O1ZXMgU1FMLCBTdG9yYWdlIGUgUlBDcy4gTyBpbnZlbnTDoXJpbyBsaXN0YSBhcyByZWZlcsOqbmNpYXMgU1FMIGVuY29udHJhZGFzIG5vIFR5cGVTY3JpcHQuIEFzIGZ1bsOnw7VlcyBlZmVjdGl2YW1lbnRlIGluc3RhbGFkYXMsIGFzIHBvbGljaWVzIGUgb3MgZ3JhbnRzIGRlIHN0YWdpbmcgcHJlY2lzYW0gZGUgdmFsaWRhw6fDo28gcHLDs3ByaWEuCgojIyMgU2VydmnDp29zIGF1eGlsaWFyZXMgZSBjb25leMO1ZXMgZXh0ZXJuYXMKCn5+fm1lcm1haWQKZmxvd2NoYXJ0IFRECiAgSWRlbnRpdHlbIkF1dGgsIG9uYm9hcmRpbmcgZSBwZXJmaWwiXSAtLT4gTWFpbFsiU2VuZEdyaWQiXQogIElkZW50aXR5IC0tPiBTdG9yYWdlWyJTdXBhYmFzZSBTdG9yYWdlIl0KICBTdG9yYWdlIC0tPiBSZXN0cmljdGVkWyJEb2N1bWVudG9zLCBjb21wcm92YXRpdm9zIGUgYXZhdGFyZXMiXQogIEZYWyJDb252ZXJzw6NvIGUgY8OhbGN1bG8gZGUgdGF4YXMiXSAtLT4gT1hSWyJPcGVuIEV4Y2hhbmdlIFJhdGVzIl0KICBDbGlwWyJMZWl0dXJhIGRlIGNvbXByb3ZhdGl2b3MgQ2xpcCBTUEVJIl0gLS0+IFN0b3JhZ2UKICBDbGlwIC0tPiBBSVsiT3BlbkFJIG91IGZhbCDCtyBjb25maWd1cmHDp8OjbyBvcGNpb25hbCJdCiAgQWRtaW5bIkJhY2tvZmZpY2UgWFBheSJdIC0tPiBDaGVja291dFN2Y1siU2VydmnDp28gZGUgY2hlY2tvdXQgS29vcGZ5Il0KICBDaGVja291dFN2YyAtLT4gU2hvcGlmeVsiU2hvcGlmeSDCtyByZWVudmlvIGRlIHBlZGlkbyBwYWdvIl0KICBDcnlwdG9bIkNyaXB0b2dyYWZpYSBlIGluc3RydW1lbnRhw6fDo28gZG8gQ29yZSJdIC0tPiBQYXlbIlNlc3PDtWVzLCBjb250YXMgZSBwYWdhbWVudG9zIl0KICBQcm92aWRlclsiU3RyaXBlLCBQYXlQYWwgZSBXaG9wIl0gLS0+IFNES1siU0RLLCByZWRpcmVjw6fDo28gb3UgZXhwZXJpw6puY2lhIGhvc3RlZCJdCiAgU0RLIC0tPiBCdXllclsiQ2hlY2tvdXQgZG8gY29tcHJhZG9yIl0Kfn5+CgpPIGNoZWNrb3V0IGRvIGNvbWVyY2lhbnRlIHBvZGUgZW52b2x2ZXIgc2NyaXB0cywgY29tcG9uZW50ZXMgYWxvamFkb3Mgb3UgcmVkaXJlY8Onw7VlcyBhcHJvdmFkYXMgcGVsbyBwcm92ZWRvci4gQXMgY2hhdmVzLCBjcmVkZW5jaWFpcyBpbnRlcm5hcywgY29uZmlndXJhw6fDo28gcG9yIGNvbnRhIGUgb3BlcmHDp8O1ZXMgbW9uZXTDoXJpYXMgcGVydGVuY2VtIGFvIHNlcnZpZG9yLiBPIFN0cmlwZSBPYnNlcnZlciBlc3TDoSBtb2RlbGFkbyBjb21vIGRlcGVuZMOqbmNpYSBhIHZlcmlmaWNhciBwb3IgY29udGEsIGxvamEgZSBtb2VkYS4KCiMjIyBDaGVja291dCBleHRlcm5vIGUgQ1JNIG5vIGRlc2VuaG8gZGUgcHJvZHXDp8OjbwoKfn5+bWVybWFpZApzZXF1ZW5jZURpYWdyYW0KICBwYXJ0aWNpcGFudCBNIGFzIENvbWVyY2lhbnRlIG91IE9yYmlhQ1JNCiAgcGFydGljaXBhbnQgQiBhcyBCYWNrZW5kIGRvIHNpdGUgb3UgQkZGCiAgcGFydGljaXBhbnQgWCBhcyBDb3JlIFhQYXkKICBwYXJ0aWNpcGFudCBQIGFzIFByb3ZlZG9yCiAgcGFydGljaXBhbnQgQyBhcyBDb21wcmFkb3IKICBNLT4+QjogUHVibGljYSBvZmVydGEgb3UgY3JpYSBpbnRlbsOnw6NvIGRlIGNvYnJhbsOnYQogIEMtPj5COiBBYnJlIGxpbmssIGJvdMOjbyBvdSBjaGVja291dCBpbmNvcnBvcmFkbwogIEItPj5YOiBDcmlhIHNlc3PDo28gY29tIG9mZXJ0YSwgcmVmZXLDqm5jaWEgZSBtb2VkYQogIFgtPj5QOiBTZWxlY2Npb25hIGNvbnRhIGUgaW5pY2lhIHBhZ2FtZW50bwogIFAtLT4+QzogQXByZXNlbnRhIG3DqXRvZG8gb3UgcmVkaXJlY2Npb25hCiAgUC0tPj5YOiBFbnRyZWdhIGV2ZW50byBkZSBwYWdhbWVudG8KICBYLT4+WDogQ29uZmlybWEgZXN0YWRvIGUgcmVjb25jaWxpYQogIFgtLT4+QjogRXN0YWRvIHZlcmlmaWNhZG8gZSBldmVudG8gZG8gcGVkaWRvCiAgQi0tPj5DOiBDb25maXJtYcOnw6NvIGUgaW5zdHJ1w6fDtWVzIGRhIGNvbXByYQogIEItLT4+TTogQWN0dWFsaXphIHBlZGlkbywgY2xpZW50ZSBlIENSTQp+fn4KCk8gQ29yZSBhdWRpdGFkbyBqw6EgZGVjbGFyYSBzZXNzw6NvLCBjb25maWd1cmHDp8OjbyBlbWJlZCwgZW5jYW1pbmhhbWVudG8gZSBwYWdhbWVudG8uIEEgcHVibGljYcOnw6NvIGRlIG9mZXJ0YSBlIGxpbmssIG9zIGV2ZW50b3MgZGUgcGVkaWRvIGUgbyBjb25lY3RvciBjb21lcmNpYWwgZG8gT3JiaWFDUk0gc8OjbyBleHRlbnPDtWVzIHByZXZpc3Rhcy4gTyBDUk0gb3BlcmFjaW9uYWwgZGEgZXF1aXBhIFhQYXkgasOhIGV4aXN0ZSBubyBiYWNrZW5kLiBPIE9yYmlhQ1JNIHRlbSBpZGVudGlkYWRlLCBjb250YWN0b3MgZSBmdW5pcyBwcsOzcHJpb3MuCgojIyBPIHF1ZSBsaWdhciBlIHByb3ZhciBlbSBzdGFnaW5nCgp8IERlcGVuZMOqbmNpYSB8IEVzdGFkbyBuYSByZXZpc8OjbyB8IE8gcXVlIGNvbmZpZ3VyYXIgZSB2YWxpZGFyIHwKfC0tLXwtLS18LS0tfAp8IENvcmUgSFRUUCBlIEJGRiB8IENvbnRyYXRvcyBwb3IgZnVuw6fDo28gbm8gY8OzZGlnby4gVUkgZW0gZGVtb25zdHJhw6fDo28uIHwgSG9zdCwgYmFzZSBwYXRoLCBTSEEgZGUgZGVwbG95LCBpZGVudGlkYWRlIGUgZXhwaXJhw6fDo28gZGUgc2Vzc8OjbywgQ1NSRiwgYXV0b3JpemHDp8OjbyBwb3Igb3JnYW5pemHDp8OjbyBlIHBhcGVsLCB0aW1lb3V0cyBlIGVudmVsb3Blcy4gTG9naW4gdmVyaWZpY2FkbyBjb20gZW1haWwgZW0gdmV6IGRlIHVzYXIgbyBPcGVuQVBJIGxlZ2FkbyBjb21vIGdlcmHDp8OjbyBhdXRvbcOhdGljYSBkZSBjbGllbnRlLiB8CnwgQ2F0w6Fsb2dvLCBvZmVydGFzLCBwZWRpZG8gZSBsaW5rIHwgTW9kZWxvIGRlIGxpbmsgZSBvZmVydGEgZGUgcmlzY28gb2JzZXJ2YWRvcy4gQ2ljbG8gY29tZXJjaWFsIGEgZmVjaGFyLiB8IENvbnRyYXRvIHRyYW5zYWNjaW9uYWwgcGFyYSBwcmXDp28gZW0gdW5pZGFkZXMgbWVub3Jlcywgb2ZlcnRhcyB2ZXJzaW9uYWRhcywgbGluayBww7pibGljbywgZGVzYWN0aXZhw6fDo28sIHBlZGlkbywgZW50cmVnYSBlIGNsaWVudGUuIFNlc3PDtWVzIGRpZmVyZW50ZXMgcGFyYSBjb21wcmFkb3JlcyBkaWZlcmVudGVzLiB8CnwgQWRxdWlyZW50ZXMgZSBjb250YXMgfCBBZGFwdGVycywgcm91dGluZyBlIGVudHJhZGFzIHBhcmEgY2FsbGJhY2tzIG9ic2VydmFkb3MuIHwgQ29udGEgaGFiaWxpdGFkYSwgY2FwYWNpZGFkZSBwb3IgbW9lZGEsIHBhw61zIGUgbcOpdG9kby4gQXNzaW5hdHVyYSwgcmVwbGF5LCBpZGVtcG90w6puY2lhLCBjb3JyZWxhw6fDo28sIGVzdGFkb3MgcGVuZGVudGVzIGUgcmVjb25jaWxpYcOnw6NvIHBvciBwcm92ZWRvci4gfAp8IFNob3BpZnkgZSBzZXJ2acOnbyBkZSBjaGVja291dCB8IFBvbnRlIGRlIHJlZW52aW8gZGUgcGVkaWRvIHBhZ28gb2JzZXJ2YWRhLiB8IENvbmZpcm1hciBzZXJ2acOnbywgY3JlZGVuY2lhbCBpbnRlcm5hIGUgZXNjb3BvLiBWYWxpZGFyIGNyaWHDp8OjbywgYWN0dWFsaXphw6fDo28gZSByZWVudmlvIGRlIHBlZGlkbyBkZSBwb250YSBhIHBvbnRhLiB8CnwgT3JiaWFDUk0gfCBDUk0gY29tZXJjaWFsIHNlcGFyYWRvIGNvbSBjb250YWN0b3MgZSBjYW1wYW5oYXMuIHwgTWFwZWFyIG9yZ2FuaXphw6fDo28sIGNvbXByYWRvciwgcGVkaWRvIGUgaWRlbnRpZmljYWRvciBleHRlcm5vLiBEZWZpbmlyIGEgcmVzcG9uc2FiaWxpZGFkZSBwb3IgY29udGFjdG8sIGludGVuw6fDo28gZGUgY29icmFuw6dhIGUgZXZlbnRvIHBhZ28uIHwKfCBBZmlsaWFkb3MgZSBtYXJrZXRpbmcgfCBBZmZpbGlhdGUgQ1JNLCBldmVudG9zIGRlIGNvbcOpcmNpbyBlIGF0cmlidWnDp8OjbyBhIGNvbXBsZXRhci4gfCBJZGVudGlkYWRlIGUgY29taXNzw6NvLCBhdHJpYnVpw6fDo28gcG9yIGNhbXBhbmhhLCByZWVtYm9sc28sIGNvbnNlbnRpbWVudG8gZSBjYW5hbCBkZSBjb211bmljYcOnw6NvLiB8CnwgUGVyc2lzdMOqbmNpYSBlIHJvdGluYXMgfCBTY2hlbWEsIFN0b3JhZ2UsIGNyb24gZSBjaGFtYWRhcyBSUEMgYXVkaXRhZG9zLiB8IEV4cG9ydGFyIGVzcXVlbWEgZSBsZWRnZXIgc2VtIGRhZG9zIHBlc3NvYWlzLiBWYWxpZGFyIHZlcnPDtWVzIGRlIG1pZ3Jhw6fDo28sIFJQQ3MsIHBlcm1pc3PDtWVzLCByZXRlbsOnw6NvLCByZXN0YXVyYcOnw6NvIGUgcmVjb25jaWxpYcOnw6NvLiB8CnwgRW1haWwsIEZYIGUgYW7DoWxpc2UgZGUgY29tcHJvdmF0aXZvcyB8IEludGVncmHDp8O1ZXMgZW5jb250cmFkYXMgbm8gY8OzZGlnby4gfCBDb25maWd1cmFyIGNvbnRhcywgcG9sw610aWNhcyBlIG1vZG9zIGRlIGZhbGhhIHBvciBhbWJpZW50ZS4gVmVyaWZpY2FyIG8gdHJhdGFtZW50byBkb3MgZGFkb3MgZGUgY29tcHJvdmF0aXZvcyBhbnRlcyBkZSBhY3RpdmFyIGEgYW7DoWxpc2UgZXh0ZXJuYS4gfAp8IFN0cmlwZSBPYnNlcnZlciB8IEFzc29jaWHDp8OjbyBhbyBwcm9kdXRvIFhQYXkgcG9yIGNvbmZpcm1hci4gfCBWYWxpZGFyIGNvbnRhLCBsb2phLCBvcmlnZW0gZG9zIGV2ZW50b3MgZSBtb2VkYXMuIE1hbnRlciBhIGxpZ2HDp8OjbyBkZSBsZWl0dXJhIGRpc3RpbnRhIGRhIGNvYnJhbsOnYSBkaXJlY3RhLiB8CgpPIG1hcmNvIGRlIGVzdHJlaWEgZW0gc3RhZ2luZyDDqSB1bSBwcm9kdXRvIOKGkiBvZmVydGEg4oaSIGxpbmsg4oaSIHBhZ2FtZW50byBkZSB0ZXN0ZSDihpIgcGVkaWRvIOKGkiBjbGllbnRlIOKGkiByZWNvbmNpbGlhw6fDo28uIEEgTWlzc2lvbiAwMDEgYXNzaW5hbGEgZ2F0ZXMgZGUgdmVyaWZpY2HDp8OjbyBkZSB3ZWJob29rcywgaXNvbGFtZW50byBkZSBvcGVyYcOnw7VlcyBkZSB0ZXN0ZSwgaWRlbXBvdMOqbmNpYSwgdW5pZGFkZXMgbW9uZXTDoXJpYXMsIHNhbGRvcyBlIG1pZ3Jhw6fDtWVzLiBDaGVja291dCBtb25ldMOhcmlvIGUgZXNjcml0YXMgZmluYW5jZWlyYXMgc8OzIHNlZ3VlbSBhcMOzcyBmZWNobyBkb3MgZ2F0ZXMuCgojIyBWZXJpZmljYcOnw6NvIGxvY2FsCgpPIGNvbWFuZG8gbnBtIHJ1biBjaGVjayB2YWxpZGEgSmF2YVNjcmlwdCwgbyBpbnZlbnTDoXJpbyBkZSByb3RhcyBlIG9zIHRlc3RlcyBkbyBtb2RlbG8uIE8gYXJtYXplbmFtZW50byBsb2NhbCBwZXJ0ZW5jZSBhcGVuYXMgw6AgZGVtb25zdHJhw6fDo28gZSBmb2kgZGVzZW5oYWRvIHBhcmEgdW0gb3BlcmFkb3IgZGUgdGVzdGUuIFByb2R1w6fDo28gZXhpZ2UgcGVyc2lzdMOqbmNpYSBlIGF1dG9yaXphw6fDo28gbm8gc2Vydmlkb3IuCgojIyMgUmVmZXLDqm5jaWFzCgotIFtDb3JlIFhQYXldKGh0dHBzOi8vZ2l0aHViLmNvbS9HZW5lc2lzQWxwaGEveHBheS1iYWNrZW5kL3RyZWUvZGFkM2U1NWYzZWRhNmI0MmQ2NDcxMjA4MWE1NjEyNTcyZmNlMjcxMikKLSBbQ29yZSDigJQgY29tcG9zacOnw6NvIE5lc3RKU10oaHR0cHM6Ly9naXRodWIuY29tL0dlbmVzaXNBbHBoYS94cGF5LWJhY2tlbmQvYmxvYi9kYWQzZTU1ZjNlZGE2YjQyZDY0NzEyMDgxYTU2MTI1NzJmY2UyNzEyL3NyYy9hcHAubW9kdWxlLnRzKQotIFtPcmJpYUNSTV0oaHR0cHM6Ly9naXRodWIuY29tL0dlbmVzaXNBbHBoYS9PcmJpYUNSTSkK
+# XPay Commerce
+
+Frontend navegável do comerciante, checkout do comprador e backoffice operacional. A primeira versão corre em demonstração local com duas lojas, quatro moedas e dados fictícios. Os pedidos, links e notas que criar são guardados no navegador desta origem.
+
+## Executar
+
+Requer Node.js 22 ou superior. O frontend usa HTML, CSS e JavaScript nativos.
+
+~~~sh
+npm start
+npm run check
+~~~
+
+Abrir [http://127.0.0.1:4173](http://127.0.0.1:4173). O directório public contém os ficheiros para alojamento estático. As páginas usam rotas por fragmento e os URLs de teste pertencem à origem e ao navegador que guardou os dados. Use dados fictícios. As operações da interface simulam pagamento, reembolso, entrega, saque e activação.
+
+## Jornadas disponíveis
+
+| Área | O que pode experimentar | Ligação real |
+|---|---|---|
+| Visão geral | Escolher loja, moeda e período. Consultar volume, saldo e últimos pedidos. | Dashboard e carteira do Core com identidade e moeda verificadas. |
+| Comércio | Criar produto, publicar oferta com preço e moeda, criar, pausar e reactivar um link. | API de catálogo, oferta comercial e ciclo do link a implementar ou confirmar. |
+| Checkout | Reutilizar o mesmo link, simular confirmação, pendência e recusa. Visualizar exemplo do botão. | Link no servidor → sessão do Core → checkout alojado, embed ou API do comerciante. |
+| Pedidos e clientes | Consultar estado, simular confirmação, entrega e reembolso. Consultar compras e gravar notas. | Domínio de pedidos, identidade do cliente, confirmação assíncrona e conector CRM. |
+| Campanhas e afiliados | Criar campanha, copiar link atribuído, verificar conversões e registar parceiro. | Eventos atribuídos, comissões e sincronização com canais de marketing. |
+| Assinaturas | Ver primeiras compras de ofertas mensais. | Ciclo de cobrança, cancelamento, renovação e estado persistido por provedor. |
+| Financeiro | Consultar pagamentos, carteira, disputas e saques por moeda e loja e exportar tabelas. | Carteira e ledger do Core, regras de reservas, FX, disputas, saques e reconciliação. |
+| Onboarding e backoffice | Rever activação, concluir ou rejeitar saques, editar o estado de regras e tickets. | Identidades distintas para comerciante e equipa interna, KYC, routing e CRM operacional. |
+| Integrações | Consultar as dependências e o que falta para as ligar. | Configuração por ambiente e provedor, observabilidade e validação de cada fluxo. |
+
+## Mapa das ligações do backend
+
+A referência é o commit [dad3e55 de GenesisAlpha/xpay-backend](https://github.com/GenesisAlpha/xpay-backend/commit/dad3e55f3eda6b42d64712081a5612572fce2712). Os diagramas cobrem entradas, chamadas externas, eventos de retorno, persistência, tarefas agendadas e extensões previstas. O [inventário HTTP](docs/backend-api.md) detalha as **323 operações declaradas** e aponta para cada controlador. O [inventário de dependências](docs/backend-connections.md) dá rastreabilidade a hosts literais, variáveis e RPCs encontrados em **200 ficheiros TypeScript de produção**. Exposição e disponibilidade real dependem do ambiente.
+
+### Entradas, identidades e papéis
+
+~~~mermaid
+flowchart TD
+  Merchant["Comerciante no portal"] -. "BFF a integrar · JWT" .-> Identity["Auth, onboarding e seller"]
+  Staff["Equipa interna"] -. "BFF a integrar · CRM JWT" .-> CRM["CRM e backoffice"]
+  Buyer["Comprador"] -. "Referência de sessão" .-> Checkout["Checkout e embed"]
+  Site["Servidor do comerciante"] -->|"API key e sessão"| Checkout
+  Site -->|"API key e idempotência"| Pay["Pagamentos"]
+  Worker["Checkout e serviços Koopfy"] -->|"Credencial interna ou contexto verificado"| Bridge["Integração Koopfy e rotas internas"]
+  Identity --> Account["Organização, seller e loja"]
+  CRM --> Account
+  Bridge --> Account
+  Account --> Portal["Dashboard, transações e settings"]
+  Account --> Wallet["Wallet, transferências e disputas"]
+  Checkout --> Pay
+~~~
+
+### Checkout, routing e provedores
+
+~~~mermaid
+flowchart TD
+  Offer["Produto, preço e oferta versionada"] -.-> Links["Link fixo e botão a implementar"]
+  Links -. "Nova sessão por tentativa" .-> Session["Sessão de checkout"]
+  External["Loja ou serviço de checkout"] --> Session
+  Session --> Router["Selecção por conta, país, moeda e método"]
+  Router --> Connected["Contas próprias e conectadas"]
+  Router --> Provider["Adapters e provedores configurados"]
+  Connected --> Provider
+  Provider --> A["Stripe, Whop, PayPal e Clip"]
+  Provider --> B["Sentinel, Coinflow, Kontino, RoxPay e Slash"]
+  Provider --> C["Approvebly · adapter observado"]
+  Provider -.-> D["Viva · referência hosted no código"]
+  Provider --> Sandbox["Simulador de pagamentos"]
+  A --> Event["Resposta ou callback do provedor"]
+  B --> Event
+  Event --> Status["Estado da transação e reconciliação"]
+  Status -. "Evento comercial a implementar" .-> Order["Pedido, cliente e entrega"]
+~~~
+
+O adapter existente, a referência de configuração e a capacidade homologada são estados distintos. As rotas de webhook observadas incluem Nexflow, Sentinel, Coinflow, Kontino, RoxPay, Slash, Whop, Stripe e PayPal, além do controlador Clip. Domínios e métodos variam com a conta e a região.
+
+### Eventos, ledger e tarefas recorrentes
+
+~~~mermaid
+flowchart TD
+  Provider["Provedor e reconciliação"] --> Hook["Recepção de webhooks"]
+  Hook --> Match["Autenticidade, correlação e estado"]
+  Match --> Transactions["Transações e histórico de eventos"]
+  Transactions --> Store["Supabase Postgres"]
+  Transactions --> Ledger["Carteira, ledger e reservas"]
+  Ledger --> Store
+  Payout["Orquestração de saques e antecipação"] --> Ledger
+  Settlement["Cron de settlement e libertação de reservas"] --> Store
+  Clip["Reconciliação de Clip"] --> Transactions
+  Reconcile["Reconciliador de saques"] --> Payout
+  Commissions["Afiliados e cron de comissões"] --> Store
+  Billing["Facturação interna de sellers"] --> Store
+  Billing -->|"Integração"| Whop["Whop"]
+  Match -->|"Eventos e postbacks"| Merchant["Sistemas do comerciante"]
+  Hook -. "Contrato de negócio a implementar" .-> CRM["OrbiaCRM e marketing"]
+~~~
+
+O schema Prisma descreve parte dos modelos. O runtime usa também clientes Supabase, migrações SQL, Storage e RPCs. O inventário lista as referências SQL encontradas no TypeScript. As funções efectivamente instaladas, as policies e os grants de staging precisam de validação própria.
+
+### Serviços auxiliares e conexões externas
+
+~~~mermaid
+flowchart TD
+  Identity["Auth, onboarding e perfil"] --> Mail["SendGrid"]
+  Identity --> Storage["Supabase Storage"]
+  Storage --> Restricted["Documentos, comprovativos e avatares"]
+  FX["Conversão e cálculo de taxas"] --> OXR["Open Exchange Rates"]
+  Clip["Leitura de comprovativos Clip SPEI"] --> Storage
+  Clip --> AI["OpenAI ou fal · configuração opcional"]
+  Admin["Backoffice XPay"] --> CheckoutSvc["Serviço de checkout Koopfy"]
+  CheckoutSvc --> Shopify["Shopify · reenvio de pedido pago"]
+  Crypto["Criptografia e instrumentação do Core"] --> Pay["Sessões, contas e pagamentos"]
+  Provider["Stripe, PayPal e Whop"] --> SDK["SDK, redirecção ou experiência hosted"]
+  SDK --> Buyer["Checkout do comprador"]
+~~~
+
+O checkout do comerciante pode envolver scripts, componentes alojados ou redirecções aprovadas pelo provedor. As chaves, credenciais internas, configuração por conta e operações monetárias pertencem ao servidor. O Stripe Observer está modelado como dependência a verificar por conta, loja e moeda.
+
+### Checkout externo e CRM no desenho de produção
+
+~~~mermaid
+sequenceDiagram
+  participant M as Comerciante ou OrbiaCRM
+  participant B as Backend do site ou BFF
+  participant X as Core XPay
+  participant P as Provedor
+  participant C as Comprador
+  M->>B: Publica oferta ou cria intenção de cobrança
+  C->>B: Abre link, botão ou checkout incorporado
+  B->>X: Cria sessão com oferta, referência e moeda
+  X->>P: Selecciona conta e inicia pagamento
+  P-->>C: Apresenta método ou redirecciona
+  P-->>X: Entrega evento de pagamento
+  X->>X: Confirma estado e reconcilia
+  X-->>B: Estado verificado e evento do pedido
+  B-->>C: Confirmação e instruções da compra
+  B-->>M: Actualiza pedido, cliente e CRM
+~~~
+
+O Core auditado já declara sessão, configuração embed, encaminhamento e pagamento. A publicação de oferta e link, os eventos de pedido e o conector comercial do OrbiaCRM são extensões previstas. O CRM operacional da equipa XPay já existe no backend. O OrbiaCRM tem identidade, contactos e funis próprios.
+
+## O que ligar e provar em staging
+
+| Dependência | Estado na revisão | O que configurar e validar |
+|---|---|---|
+| Core HTTP e BFF | Contratos por função no código. UI em demonstração. | Host, base path, SHA de deploy, identidade e expiração de sessão, CSRF, autorização por organização e papel, timeouts e envelopes. Login verificado com email em vez de usar o OpenAPI legado como geração automática de cliente. |
+| Catálogo, ofertas, pedido e link | Modelo de link e oferta de risco observados. Ciclo comercial a fechar. | Contrato transaccional para preço em unidades menores, ofertas versionadas, link público, desactivação, pedido, entrega e cliente. Sessões diferentes para compradores diferentes. |
+| Adquirentes e contas | Adapters, routing e entradas para callbacks observados. | Conta habilitada, capacidade por moeda, país e método. Assinatura, replay, idempotência, correlação, estados pendentes e reconciliação por provedor. |
+| Shopify e serviço de checkout | Ponte de reenvio de pedido pago observada. | Confirmar serviço, credencial interna e escopo. Validar criação, actualização e reenvio de pedido de ponta a ponta. |
+| OrbiaCRM | CRM comercial separado com contactos e campanhas. | Mapear organização, comprador, pedido e identificador externo. Definir a responsabilidade por contacto, intenção de cobrança e evento pago. |
+| Afiliados e marketing | Affiliate CRM, eventos de comércio e atribuição a completar. | Identidade e comissão, atribuição por campanha, reembolso, consentimento e canal de comunicação. |
+| Persistência e rotinas | Schema, Storage, cron e chamadas RPC auditados. | Exportar esquema e ledger sem dados pessoais. Validar versões de migração, RPCs, permissões, retenção, restauração e reconciliação. |
+| Email, FX e análise de comprovativos | Integrações encontradas no código. | Configurar contas, políticas e modos de falha por ambiente. Verificar o tratamento dos dados de comprovativos antes de activar a análise externa. |
+| Stripe Observer | Associação ao produto XPay por confirmar. | Validar conta, loja, origem dos eventos e moedas. Manter a ligação de leitura distinta da cobrança directa. |
+
+O marco de estreia em staging é um produto → oferta → link → pagamento de teste → pedido → cliente → reconciliação. A Mission 001 assinala gates de verificação de webhooks, isolamento de operações de teste, idempotência, unidades monetárias, saldos e migrações. Checkout monetário e escritas financeiras só seguem após fecho dos gates.
+
+## Verificação local
+
+O comando npm run check valida JavaScript, o inventário de rotas e os testes do modelo. O armazenamento local pertence apenas à demonstração e foi desenhado para um operador de teste. Produção exige persistência e autorização no servidor.
+
+### Referências
+
+- [Core XPay](https://github.com/GenesisAlpha/xpay-backend/tree/dad3e55f3eda6b42d64712081a5612572fce2712)
+- [Core — composição NestJS](https://github.com/GenesisAlpha/xpay-backend/blob/dad3e55f3eda6b42d64712081a5612572fce2712/src/app.module.ts)
+- [OrbiaCRM](https://github.com/GenesisAlpha/OrbiaCRM)
