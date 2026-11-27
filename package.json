@@ -7,6 +7,6 @@
   "scripts": {
     "start": "node scripts/serve.mjs",
     "test": "node --test",
-    "check": "node --check public/app.js && node scripts/check.mjs && node --test"
+    "check": "node --check public/app.js && node --check public/checkout.js && node --check public/checkout-embed.js && node scripts/check.mjs && node --test"
   }
 }

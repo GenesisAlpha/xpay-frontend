@@ -76,16 +76,18 @@ export function offerForLink(state, id) {
     : undefined;
 }
 
-export function placeOrder(state, { linkId, name, email, method, status, campaignId }) {
+export function placeOrder(state, { linkId, name, email, method, status, campaignId, quantity = 1 }) {
   const checkout = offerForLink(state, linkId);
   if (!checkout) throw new Error('Este link está indisponível.');
   if (!name.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw new Error('Indique um nome e um email válidos.');
   if (!['Pago', 'Pendente', 'Recusado'].includes(status)) throw new Error('Resultado de demonstração inválido.');
   const { link, offer } = checkout;
+  if (!Number.isInteger(quantity) || quantity < 1 || quantity > (offer.cycle === 'Mensal' ? 1 : 9)) throw new Error('Quantidade de demonstração inválida.');
   const campaign = state.campaigns.find(item => item.id === campaignId && item.link === link.id && item.status === 'Activo');
   const order = {
     id: makeId('XP'), name: name.trim(), email: email.toLowerCase().trim(), method, status,
-    offer: offer.id, amount: offer.amount, currency: offer.currency, item: offer.name, store: offer.store,
+    offer: offer.id, amount: offer.amount * quantity, currency: offer.currency, item: offer.name, store: offer.store,
+    ...(quantity > 1 ? { quantity } : {}),
     channel: campaign?.type || link.channel, campaign: campaign?.id, created: today(),
     fulfillment: 'Por entregar',
   };

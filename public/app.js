@@ -37,7 +37,7 @@ const label = slug => nav.find(([id]) => slug === id)?.[1];
 const attr = (action, id = '') => 'data-act="' + h(action) + '" data-id="' + h(id) + '"';
 const button = (text, action, id = '', variant = '', icon = '') => '<button type="button" class="btn ' + variant + '" ' + attr(action, id) + '>' + (icon ? ico(icon) : '') + h(text) + '</button>';
 const go = (slug, text, variant = '') => '<a class="btn ' + variant + '" href="#/' + h(slug) + '">' + h(text) + ' ' + ico('arrow') + '</a>';
-const checkoutHref = (id, campaign) => '#/checkout/' + safe(id) + (campaign ? '?campaign=' + safe(campaign) : '');
+const checkoutHref = (id, campaign) => './checkout.html?demo=1&link=' + safe(id) + (campaign ? '&campaign=' + safe(campaign) : '');
 const checkoutUrl = (id, campaign) => new URL(checkoutHref(id, campaign), location.href).href;
 const current = { store: 'all', currency: 'EUR', days: 30 };
 const lastOrder = new Map();

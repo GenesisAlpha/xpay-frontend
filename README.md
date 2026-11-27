@@ -15,6 +15,8 @@ Abrir [http://127.0.0.1:4173](http://127.0.0.1:4173). O directório public cont�
 
 ## Jornadas disponíveis
 
+O [guia do checkout](docs/checkout.md) inclui a demonstração AtlasClub e o contrato para ligar sessões, pagamentos e retorno à loja.
+
 | Área | O que pode experimentar | Ligação real |
 |---|---|---|
 | Visão geral | Escolher loja, moeda e período. Consultar volume, saldo e últimos pedidos. | Dashboard e carteira do Core com identidade e moeda verificadas. |

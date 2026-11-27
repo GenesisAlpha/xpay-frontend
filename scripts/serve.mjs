@@ -4,8 +4,10 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const root = fileURLToPath(new URL('../public/', import.meta.url));
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml' };
-const assets = new Set(['index.html', 'style.css', 'app.js', 'model.js', 'catalog.js', 'favicon.svg']);
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png' };
+const assets = new Set(['index.html', 'style.css', 'app.js', 'model.js', 'catalog.js', 'favicon.svg',
+  'checkout.html', 'checkout.css', 'checkout.js', 'checkout-contract.js', 'checkout-embed.js', 'checkout-embed.css',
+  'brands/mbway.png', 'brands/bizum.svg', 'brands/multibanco.svg', 'brands/pix.svg']);
 const port = Number(process.env.PORT || 4173);
 
 createServer(async (req, res) => {
@@ -21,7 +23,8 @@ createServer(async (req, res) => {
       'X-Content-Type-Options': 'nosniff',
       'Cache-Control': 'no-store',
     }).end(req.method === 'HEAD' ? undefined : data);
-  } catch {
+  } catch (error) {
+    if (error.code === 'ENOENT') { res.writeHead(404).end('Not found'); return; }
     res.writeHead(500).end('Could not read application asset');
   }
 }).listen(port, '127.0.0.1', () => console.log(`XPay Commerce: http://127.0.0.1:${port}`));
