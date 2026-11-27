@@ -5,7 +5,7 @@ import path from 'node:path';
 
 const root = fileURLToPath(new URL('../public/', import.meta.url));
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png' };
-const assets = new Set(['index.html', 'style.css', 'app.js', 'model.js', 'catalog.js', 'favicon.svg',
+const assets = new Set(['index.html', 'landing.css', 'demo.html', 'style.css', 'app.js', 'model.js', 'catalog.js', 'favicon.svg',
   'checkout.html', 'checkout.css', 'checkout.js', 'checkout-contract.js', 'checkout-embed.js', 'checkout-embed.css',
   'brands/mbway.png', 'brands/bizum.svg', 'brands/multibanco.svg', 'brands/pix.svg']);
 const port = Number(process.env.PORT || 4173);

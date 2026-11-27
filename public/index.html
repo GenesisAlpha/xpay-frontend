@@ -1,20 +1,61 @@
 <!doctype html>
 <html lang="pt-PT">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#152b26">
-    <meta name="description" content="Workspace de demonstração do XPay Commerce.">
-    <title>XPay Commerce</title>
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./style.css">
-    <script type="module" src="./app.js"></script>
-  </head>
-  <body>
-    <a class="skip" href="#content">Saltar para o conteúdo</a>
-    <div id="app"></div>
-    <div id="toast" role="status" aria-live="polite"></div>
-    <dialog id="modal" aria-labelledby="modal-title"></dialog>
-    <noscript>Active o JavaScript para usar a demonstração XPay Commerce.</noscript>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102820">
+  <meta name="description" content="XPAY Expert liga o checkout da sua loja aos pedidos do OrbiaCRM. Peça acesso ao piloto.">
+  <link rel="canonical" href="https://xpay.expert/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./landing.css">
+  <title>XPAY Expert — Checkout para empresas digitais</title>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="XPAY Expert, início"><img src="./favicon.svg" width="38" height="38" alt=""><span>XPAY <small>EXPERT</small></span></a>
+      <nav aria-label="Navegação principal">
+        <a href="#produto">Produto</a><a href="#integracao">Integração</a>
+        <a class="account" href="https://desk.orbia.live/login">Entrar no CRM <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">CHECKOUT E OPERAÇÃO COMERCIAL</p>
+          <h1 id="hero-title">Do link de venda ao pedido no CRM.</h1>
+          <p class="lead">A XPAY liga a experiência de pagamento ao catálogo e à operação comercial no OrbiaCRM. Estamos a integrar os primeiros comerciantes.</p>
+          <div class="actions">
+            <a class="button primary" href="mailto:ativacao@xpay.expert?subject=Quero%20participar%20no%20piloto%20XPAY">Pedir acesso ao piloto <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#produto">Conhecer a XPAY</a>
+          </div>
+        </div>
+        <figure class="flow" aria-labelledby="fluxo">
+          <figcaption id="fluxo">O percurso de uma venda</figcaption>
+          <ol>
+            <li><span class="symbol">↗</span><div><strong>Oferta e checkout</strong><small>O cliente abre o link da oferta e escolhe como pagar.</small></div></li>
+            <li><span class="symbol">✓</span><div><strong>Confirmação</strong><small>O prestador comunica o resultado do pagamento.</small></div></li>
+            <li><span class="symbol">≡</span><div><strong>Pedido no OrbiaCRM</strong><small>A equipa acompanha a venda no mesmo funil.</small></div></li>
+          </ol>
+        </figure>
+      </div>
+    </section>
+    <section id="produto" class="wrap details" aria-labelledby="produto-title">
+      <h2 id="produto-title">Ferramentas para vender e acompanhar a operação.</h2>
+      <div class="card-grid">
+        <article><h3>Links de pagamento</h3><p>Uma oferta pode ser partilhada por mensagem, campanha ou diretamente a partir da sua loja.</p></article>
+        <article><h3>Checkout</h3><p>Os métodos são definidos para cada operação, em função da moeda e da conta do comerciante.</p></article>
+        <article><h3>Acompanhamento</h3><p>O projeto liga a confirmação do prestador ao pedido, para que a equipa saiba o que aconteceu em cada venda.</p></article>
+      </div>
+    </section>
+    <section id="integracao" class="wrap integration" aria-labelledby="integracao-title">
+      <div><p class="eyebrow">ORBIA CRM</p><h2 id="integracao-title">O CRM para gerir a relação com cada cliente.</h2><p>Crie a sua conta para conhecer o catálogo, os contactos e os funis. A equipa XPAY acompanha a ativação do módulo de pagamentos para os comerciantes do piloto.</p></div>
+      <a class="button primary" href="https://desk.orbia.live/signup">Criar conta OrbiaCRM <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>XPAY Expert</span><a href="mailto:ativacao@xpay.expert">Contacto</a><a href="https://orbia.live/">Orbia.Live</a><a href="./demo.html">Demonstração</a></footer>
+</body>
 </html>
